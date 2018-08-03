@@ -1,0 +1,67 @@
+@charset "utf-8";
+html * {max-height:1000000px;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,.side_cate,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,blockquote{margin:0;padding:0;
+	-webkit-text-size-adjust: none; 
+	-moz-text-size-adjust: none; 
+	-ms-text-size-adjust: none; 
+	-webkit-overflow-scrolling: touch;
+word-break:break-all;}
+body,table{color:#4c4c4c;letter-spacing:-0.5px;}
+
+
+fieldset,img,iframe,frame{border:0}
+
+legend,caption{overflow:hidden;position:absolute;font-size:0;line-height:0;visibility:hidden}
+h1,h2,h3,h4,h5,h6{font-size:1em}
+img{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+img,input,textarea,fieldset{border:0 none;outline:none}
+ul,ol,dl,li,dt,dd{list-style:none;margin:0;padding:0;}
+em,address{font-style:normal}
+a{color:#373e40;text-decoration:none;outline: none;}
+a:link,a:visited,a:hover,a:active{text-decoration:none;outline: none;}
+strong{font-weight:bold}
+legend,hr,caption{display:none}
+table{border-collapse:collapse;border-spacing:0}
+input,textarea,button{}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+select{text-indent:5px;}
+u{text-decoration:none;}
+figure{margin:0;padding:0;}
+.hidden{position: absolute; left: 0; top: 0; width: 0; height: 0; font-size: 0; line-height: 0; text-indent: -9999px; overflow: hidden; visibility: hidden;}
+
+/* Reset `button` and button-style `input` default styles */
+input[type="radio"],input[type="submit"], input[type="reset"], input[type="button"], button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input[type="radio"],input[type="text"], input[type="tel"],input[type="number"], input[type="password"]{-webkit-border-radius:0;  -webkit-appearance:none;appearance:none; }
+input::-webkit-input-placeholder{color:#a0a0a0}
+input::-moz-input-placeholder{color:#a0a0a0}
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+*:focus {
+ outline: 0;
+ } 
