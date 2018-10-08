@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* common */
 html{font-size:10px;width:100%;height:100%;}
-body {font-family: 'NanumSquare', '나눔고딕', 'Nanum Gothic', "Malgun Gothic","맑은 고딕","Dotum","돋움","굴림",Sans-serif; position:relative;}
+body {font-family: 'Source Sans Pro', sans-serif; position:relative;}
 .clear:after{content:''; display:block; clear:both;}
 
 input[type="text"]:disabled { background: none; color: #BEBEBE; }
